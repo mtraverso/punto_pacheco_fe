@@ -1,0 +1,60 @@
+.image2 {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .image1 {
+        display: none;
+    }
+
+    .image2 {
+        display: block;
+    }
+}
+
+@media (max-width: 582px) {
+    .user {
+        display: none;
+    }
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 48px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    z-index: 200;
+}
+
+.content {
+    margin-top: 7vh; /* height of header */
+    margin-bottom: 50px; /* height of footer */
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+}
+
+.datepicker {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
